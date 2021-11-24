@@ -9,6 +9,7 @@ class StandardItem {
       this.item.quality -= 1;
     }
     this.item.sellIn -= 1;
+    this.quality_cap();
   }
   quality_cap() {
     if (this.item.quality < 0) {
