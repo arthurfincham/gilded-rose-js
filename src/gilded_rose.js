@@ -1,13 +1,5 @@
-class Item {
-  constructor(name, sellIn, quality){
-    this.name = name;
-    this.sellIn = sellIn;
-    this.quality = quality;
-  }
-}
-
 class Shop {
-  constructor(items=[]){
+  constructor(items = []) {
     this.items = items;
   }
   updateQuality() {
@@ -61,7 +53,4 @@ class Shop {
   }
 }
 
-module.exports = {
-  Item,
-  Shop
-}
+module.exports = Shop;
