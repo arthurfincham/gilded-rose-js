@@ -2,8 +2,6 @@ const {Shop, Item} = require("../src/gilded_rose");
 const fs = require('fs-extra');
 const { exec } = require('child_process');
 
-
-
 describe("Gilded Rose", function() {
   it("should foo", function() {
     const gildedRose = new Shop([new Item("foo", 0, 0)]);
