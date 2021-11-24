@@ -17,6 +17,7 @@ class BackstagePass extends StandardItem {
         this.item.quality += 1;
         break;
     }
+    this.item.sellIn -= 1;
     this.quality_cap();
   }
 }
